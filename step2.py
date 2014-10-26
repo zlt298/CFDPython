@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt    #here we load matplotlib, calling it 'plt'
 import time, sys
 
 """
-linear convection u = u0 = 2 for interval 0.5<=x<=1 and 1 everywhere else
+linear convection , inviscid burgers' u = u0 = 2 for interval 0.5<=x<=1 and 1 everywhere else
 """
 
 nx = 21
