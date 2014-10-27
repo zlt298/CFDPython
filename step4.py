@@ -28,8 +28,11 @@ nt = 100
 
 dx = 2*np.pi/(nx-1)
 nu = 0.07
+
+#made up sigma relationship
 sigma = .08
 dt = sigma*dx**2/nu
+#dt = nu*dx
 
 
 x = np.linspace(0,2*np.pi,nx)
